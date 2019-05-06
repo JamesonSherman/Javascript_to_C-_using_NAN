@@ -1,0 +1,40 @@
+/*
+
+You need to write a C++ addon that returns an object with the following keys: 
+findUpper, hasUpper, findLower,  lcletters, ucletters.
+
+The values for findUpper, hasUpper, findLower are all functions.
+
+The values corresponding to lcletters and ucletters are strings.
+
+The first parameter to findUpper is a string that may contain uppercase letters, 
+the second parameter is a string that contains the uppercase letters we are interested 
+in.
+
+If the second parameter is empty then any uppercase letter present in the
+first string needs to be found.
+The parameter to hasUpper is a string.
+
+If it is not empty then only the uppercase letters specified in the string
+ need to be checked for.
+
+If they are present then this function would return true otherwise false.
+If the input string is empty then all uppercase letters need to be searched for.
+
+The first parameter to the findLower is a (JavaScript) function and the second 
+and third parameters are strings.
+
+You need to call the JavaScript function passing the second parameter as 
+its first parameter and each character in the third parameter once to 
+ee if the character is present.
+
+The JavaScript function will return a bool to the C++ function to indicate
+ if the character is present or not.
+
+The strings lcletters and uc letters contain the lowercase and uppercase 
+letters from the original string passed to ant of the three functions findUpper, 
+hasUpper and findLower.
+
+Each find function would return the letters it found.
+
+*/
